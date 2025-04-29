@@ -1,0 +1,25 @@
+<!--
+    ioBroker.vis svg_container_with_change_id Widget-Set
+    version: "0.0.1"
+    Copyright 2025 gokturk413 gokturk413@gmail.com
+-->
+<!-- here you can include so many css as you want -->
+<link rel="stylesheet" href="widgets/svg_container_with_change_id/css/style.css" />
+<!-- here you can include so many js-files as you want -->
+<script type="text/javascript" src="widgets/svg_container_with_change_id/js/svg_container_with_change_id.js"></script>
+
+<script id="tplSvg_container_with_change_idShowInstance"
+        type="text/ejs"
+        class="vis-tpl"
+        data-vis-prev='<div id="prev_tplSvg_container_with_change_idShowInstance" style="position: relative; text-align: initial;padding: 0;"><div class="vis-widget_prev" style="width: 200px; height: 200px; padding: 0; overflow: hidden;"><div class="svg_container_with_change_id-class vis-widget-prev-body" style="width: 100%; height: 100%;"><svg width="100%" height="100%"><circle cx="50%" cy="50%" r="40%" stroke="black" stroke-width="3" fill="red"/></svg></div></div></div>'
+        data-vis-attrs="svgCode/text;width[200]/number;height[200]/number;hideTreeView/checkbox;setIds[false]/hidden"
+        data-vis-set="svg_container_with_change_id"
+        data-vis-type="container"
+        data-vis-name="SVG Container">
+    <div class="vis-widget <%== this.data.attr('class') %>" style="width: <%= this.data.attr('width') || 200 %>px; height: <%= this.data.attr('height') || 200 %>px; padding: 0; margin: 0;" id="<%= this.data.attr('wid') %>">
+        <div class="svg_container_with_change_id-class vis-widget-body <%== this.data.attr('class') %>" style="width: 100%; height: 100%; position: relative;">
+            <%vis.binds['svg_container_with_change_id'].createWidget(this.data.wid, this.view, this.data, this.style);%>
+            <button class="set-ids-button" style="position: absolute; top: 10px; right: 10px; z-index: 1000;">Set IDs</button>
+        </div>
+    </div>
+</script>

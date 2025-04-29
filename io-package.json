@@ -1,0 +1,84 @@
+{
+    "common": {
+        "name": "svg_container_with_change_id",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "svg container with change all svg id",
+            "de": "SVG -Container mit Änderung aller SVG -ID",
+            "ru": "Контейнер SVG с изменением всех SVG ID",
+            "pt": "contêiner SVG com alteração todo o ID SVG",
+            "nl": "SVG -container met wijzigen alle SVG -ID",
+            "fr": "conteneur SVG avec modification de tous les ID SVG",
+            "it": "Container SVG con modifica tutti gli ID SVG",
+            "es": "contenedor SVG con cambio todo SVG ID",
+            "pl": "pojemnik SVG z zmianą wszystkie identyfikatory SVG",
+            "uk": "контейнер SVG з зміною всіх ідентифікаторів SVG",
+            "zh-cn": "具有更改所有SVG ID的SVG容器"
+        },
+        "desc": {
+            "en": "svg container with change all svg id",
+            "de": "SVG -Container mit Änderung aller SVG -ID",
+            "ru": "Контейнер SVG с изменением всех SVG ID",
+            "pt": "contêiner SVG com alteração todo o ID SVG",
+            "nl": "SVG -container met wijzigen alle SVG -ID",
+            "fr": "conteneur SVG avec modification de tous les ID SVG",
+            "it": "Container SVG con modifica tutti gli ID SVG",
+            "es": "contenedor SVG con cambio todo SVG ID",
+            "pl": "pojemnik SVG z zmianą wszystkie identyfikatory SVG",
+            "uk": "контейнер SVG з зміною всіх ідентифікаторів SVG",
+            "zh-cn": "具有更改所有SVG ID的SVG容器"
+        },
+        "authors": [
+            "gokturk413 <gokturk413@gmail.com>"
+        ],
+        "keywords": [
+            "svg",
+            "id",
+            "change"
+        ],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "svg_container_with_change_id.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/gokturk413/ioBroker.svg_container_with_change_id/main/admin/svg_container_with_change_id.png",
+        "readme": "https://github.com/gokturk413/ioBroker.svg_container_with_change_id/blob/main/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "restartAdapters": [
+            "vis"
+        ],
+        "onlyWWW": true,
+        "noConfig": true,
+        "singleton": true,
+        "type": "visualization-widgets",
+        "mode": "once",
+        "dependencies": [
+            "vis"
+        ],
+        "globalDependencies": []
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
